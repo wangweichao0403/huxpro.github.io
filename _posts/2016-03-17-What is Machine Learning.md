@@ -3,7 +3,8 @@ layout: post
 title: "台湾大学林轩田机器学习基石课程学习笔记1 -- The Learning Problem"
 author: "wangweichao"
 date: "2016-03-17"
-categories: blog
+catalog: true
+header-mask: 0.3
 tags: [机器学习,原理，台湾大学]
 
 ---
