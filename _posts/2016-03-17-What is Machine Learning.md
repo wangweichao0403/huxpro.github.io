@@ -34,7 +34,7 @@ tags: [机器学习,原理，台湾大学]
 
 某些问题难以使用普通编程解决
 
-有大量的数据样本可供使用
+有大量的数据样本可供使用  
 ![](/img/linxuetian/Lecture 1 The Learning Problem/03.png)
 
 ## Applications of Machine Learning ##
@@ -55,9 +55,11 @@ tags: [机器学习,原理，台湾大学]
 
 假设hypothesis，一个机器学习模型对应了很多不同的hypothesis，通过演算法A，选择一个最佳的hypothesis对应的函数称为矩g，g能最好地表示事物的内在规律，也是我们最终想要得到的模型表达式。
 
-![](/img/linxuetian/Lecture 1 The Learning Problem/04.png)
+![](/img/linxuetian/Lecture 1 The Learning Problem/04.png) 
+
 实际中，机器学习的流程图可以表示为：
-![](/img/linxuetian/Lecture 1 The Learning Problem/05.png)
+
+![](/img/linxuetian/Lecture 1 The Learning Problem/05.png) 
 
 对于理想的目标函数f，我们是不知道的，我们手上拿到的是一些训练样本D，假设是监督式学习，其中有输入x，也有输出y。机器学习的过程，就是根据先验知识选择模型，该模型对应的hypothesis set（用H表示），H中包含了许多不同的hypothesis，通过演算法A，在训练样本D上进行训练，选择出一个最好的hypothes，对应的函数表达式g就是我们最终要求的。一般情况下，g能最接近目标函数f，这样，机器学习的整个流程就完成了。
 
@@ -70,8 +72,11 @@ tags: [机器学习,原理，台湾大学]
 **人工智能**（Artificial Intelligence）
 
 **统计**（Statistics）
-![](/img/linxuetian/Lecture 1 The Learning Problem/06.png)
-![](/img/linxuetian/Lecture 1 The Learning Problem/07.png)
+
+![](/img/linxuetian/Lecture 1 The Learning Problem/06.png) 
+
+![](/img/linxuetian/Lecture 1 The Learning Problem/07.png) 
+
 其实，机器学习与这三个领域是相通的，基本类似，但也不完全一样。机器学习是这三个领域中的有力工具，而同时，这三个领域也是机器学习可以广泛应用的领域，总得来说，他们之间没有十分明确的界线。
 
 ## 总结 ##
